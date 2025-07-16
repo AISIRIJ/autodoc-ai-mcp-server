@@ -16,6 +16,14 @@ AI-Enhanced Documentation Generator using OpenAI GPT-3.5-turbo.
 2. Install dependencies: `npm install`
 3. Build: `npm run build`
 4. Configure in Claude Desktop MCP settings
+5. {
+  "mcpServers": {
+    "autodoc-ai": {
+      "command": "node",
+      "args": ["{project_path}/dist/index.js"]
+    }
+  }
+}
 
 ##  Usage
 
